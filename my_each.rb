@@ -1,8 +1,10 @@
-def my_each(words)
-  i = 0
-  while i < words.length do |word|
-    yield(words[]i)
-    i += 1
-  end
-  words
+
+def my_each(array)
+  # code here
+  i=0 
+  while i < array.length 
+    yield(array[i])
+    i += 1 
+  end 
+  array 
 end
